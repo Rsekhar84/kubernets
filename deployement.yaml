@@ -14,9 +14,10 @@ spec:
     metadata:
       labels:
         app: springboot
-    spec:
+  spec:
       containers:
-       - name: springboot
-         image: rsekhar82/springboot-hello:v1
-         ports :
+      - name: springboot
+        image: rsekhar82/springboot-hello:v1
+        ports:
         - containerPort: 8080
+ 
