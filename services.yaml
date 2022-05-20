@@ -3,7 +3,7 @@ kind: springboot-Service
 metadata:
   name: springboot
 spec:
- type : loadBalancer 
+  type : loadBalancer 
   selector:
     app: springboot
   ports:
